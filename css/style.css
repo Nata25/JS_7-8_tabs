@@ -1,7 +1,24 @@
-.hidden {
+.heading {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.heading {
+    text-decoration: none;
+}
+
+.heading_active {
+    text-decoration: underline;
+}
+
+.tab {
     display: none;
 }
 
-.visible {
+.tab_active {
     display: block;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    background-color: #f3f3df;
 }

@@ -1,8 +1,14 @@
 $(function() {
-    $(".tab").not("#tab-1").hide();
 
-    $(".headings li").click(function() {
+    $(".heading").click(function() {
+        $(".heading").removeClass("heading_active");
+        $(".tab").removeClass("tab_active");
+
+        $(this).addClass("heading_active");
         var heading = $(this).attr("id");
-        $("#tab-" + heading).show();
+        var currentTab = $("#tab-" + heading);
+        var zIndex = currentTab.css("z-index");
+        currentTab.css("z-index", zIndex++);
+        currentTab.addClass("tab_active");
     })
 });
