@@ -59,6 +59,10 @@
     line-height: 24px;
 }
 
+.visible {
+    display: block;
+}
+
 .paragraph {
     margin-top: 10px;
     line-height: 24px;
@@ -91,6 +95,7 @@ textarea {
     position: relative;
     width: 100px;
     margin-top: 30px;
+    font-style: italic;
     vertical-align: top;
 }
 
@@ -99,6 +104,7 @@ textarea {
     margin-top: 33px;
     margin-right: 175px;
     padding: 5px;
+    font-size: .9em;
 }
 
 .tooltip {
@@ -112,6 +118,7 @@ textarea {
     border-radius: 3px;
     font-family: Arial, sans-serif;
     font-size: .8em;
+    font-style: normal;
     box-shadow: 0 0 5px 2px #eee;
     z-index: 1;
 }

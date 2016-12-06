@@ -1,7 +1,5 @@
 $(function() {
 
-    $("#tab-h1").show();
-
     $(".heading").click(function() {
 
         if ($(this).hasClass("active")) { return; }
@@ -26,7 +24,6 @@ $(function() {
     $("#renderTooltips").click(function(event) {
         event.preventDefault();
         $(".tooltip").fadeIn(300);
-        // console.log("click");
     });
 
 }); // end of ready()
