@@ -5,20 +5,23 @@
 }
 
 .tabs {
-    width: 500px;
+    display: inline-block;
     margin: 20px;
-    padding: 2px;
+    padding: 3px;
     border: 1px solid #eee;
     border-radius: 5px;
 }
 
 .headings {
+    padding: 0 8px;
+    border: 1px solid #c8d5da;
+    border-radius: 3px;
     background-color: #efeded;
 }
 
 .heading {
     display: inline-block;
-    margin: 7px 1px 0;
+    margin-top: 7px;
     padding: 10px;
     border: 1px solid #89a7b3;
     border-bottom: 0;
@@ -38,7 +41,6 @@
 
 .content {
     padding: 20px;
-    border-top: 1px solid #89a7b3;
 }
 
 .tab {
