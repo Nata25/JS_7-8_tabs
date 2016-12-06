@@ -3,6 +3,9 @@ $(function() {
     $("#tab-h1").show();
 
     $(".heading").click(function() {
+
+        if ($(this).hasClass("active")) { return; }
+
         $("li").not(this).removeClass("active");
         $(".tab").hide();
 
