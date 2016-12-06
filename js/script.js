@@ -23,4 +23,10 @@ $(function() {
         }
     ); // end of hover
 
+    $("#renderTooltips").click(function(event) {
+        event.preventDefault();
+        $(".tooltip").fadeIn(300);
+        // console.log("click");
+    });
+
 }); // end of ready()

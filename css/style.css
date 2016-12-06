@@ -67,7 +67,7 @@
 /* Form */
 
 .form {
-    width: 460px;
+    width: 440px;
     margin: 20px;
     padding: 10px;
     border: 1px solid #eee;
@@ -90,9 +90,10 @@ textarea {
 }
 
 .input {
-    width: 150px;
+    width: 140px;
     margin-top: 33px;
-    margin-right: 200px;
+    margin-right: 175px;
+    padding: 5px;
 }
 
 .tooltip {
@@ -102,7 +103,7 @@ textarea {
     top: 0;
     left: 300px;
     padding: 5px;
-    box-shadow: 0 0 5px 5px #eee;
+    box-shadow: 0 0 5px 2px #eee;
     border: 1px solid #bbb;
     border-radius: 3px;
     font-family: Arial, sans-serif;
