@@ -39,6 +39,10 @@
     border-top: 1px solid #89a7b3;
 }
 
-.tab p {
+.tab {
+    display: none;
+}
+
+.paragraph {
     margin-top: 10px;
 }

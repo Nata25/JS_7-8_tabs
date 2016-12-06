@@ -1,13 +1,14 @@
 $(function() {
-    
-    $(".tab").not("#tab-h1").hide();
+
+    $("#tab-h1").show();
 
     $(".heading").click(function() {
-        $("li").not(this).removeClass("heading_active");
+        $("li").not(this).removeClass("active");
         $(".tab").hide();
 
-        $(this).addClass("heading_active");
+        $(this).addClass("active");
         var currentTab = $("#tab-" + $(this).attr("id"));
         currentTab.fadeIn(300);
-    }); // end of listener
+    });
+
 }); // end of ready()
