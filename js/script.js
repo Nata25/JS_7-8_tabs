@@ -1,9 +1,8 @@
 $(function() {
-    console.log("hello");
-    $(".tab__text").hide();
+    $(".tab").not("#tab-1").hide();
 
-    $(".tab__heading").click(function() {
-        console.log("inslide click");
-        $(this).next(".tab__text").show();
+    $(".headings li").click(function() {
+        var heading = $(this).attr("id");
+        $("#tab-" + heading).show();
     })
 });
