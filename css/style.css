@@ -97,11 +97,15 @@ textarea {
 
 .tooltip {
     position: absolute;
-    display: inline-block;
+    display: none;
     width: 120px;
     top: 0;
     left: 300px;
-    /*font-family: Arial, sans-serif;*/
+    padding: 5px;
+    box-shadow: 0 0 5px 5px #eee;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
     font-size: 0.8em;
     z-index: 1;
 }
@@ -111,7 +115,7 @@ textarea {
     width: 200px;
     margin: 40px auto;
     padding: 3px;
-    /*font-family: Arial, sans-serif;*/
+    font-family: Arial, sans-serif;
     font-size: .9em;
 }
 
