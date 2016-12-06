@@ -25,6 +25,7 @@
     display: inline-block;
     margin-top: 7px;
     padding: 10px;
+    transition: background-color .1s linear;
     border: 1px solid #89a7b3;
     border-bottom: 0;
     border-radius: 3px 3px 0 0;
@@ -32,7 +33,6 @@
     color: #717171;
     cursor: pointer;
     list-style-type: none;
-    transition: background-color .1s linear;
 }
 
 .heading:hover {
@@ -62,6 +62,11 @@
 .paragraph {
     margin-top: 10px;
     line-height: 24px;
+}
+
+.indented {
+    display: inline-block;
+    text-indent: 150px;
 }
 
 /* Form */
@@ -97,17 +102,17 @@ textarea {
 }
 
 .tooltip {
-    position: absolute;
     display: none;
-    width: 120px;
+    position: absolute;
     top: 0;
     left: 300px;
+    width: 120px;
     padding: 5px;
-    box-shadow: 0 0 5px 2px #eee;
     border: 1px solid #bbb;
     border-radius: 3px;
     font-family: Arial, sans-serif;
-    font-size: 0.8em;
+    font-size: .8em;
+    box-shadow: 0 0 5px 2px #eee;
     z-index: 1;
 }
 
