@@ -30,13 +30,22 @@
     color: #717171;
     cursor: pointer;
     list-style-type: none;
+    transition: background-color .1s linear;
+}
+
+.heading:hover {
+    background-color: #ece9da;
 }
 
 .active {
-    background-color: #7979af;
     color: #fff;
     box-shadow: 0 0 9px #a99a51;
     cursor: default;
+}
+
+.active,
+.active:hover {
+    background-color: #7979af;
 }
 
 .content {
